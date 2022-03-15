@@ -14,8 +14,14 @@ CREATE TABLE albums (
 );
 
 INSERT INTO artists (name) VALUES ('Abba');
+INSERT INTO artists (name) VALUES ('Nirvana');
+INSERT INTO artists (name) VALUES ('The Beatles');
+INSERT INTO artists (name) VALUES ('Robbie Williams');
 
-INSERT INTO albums (title, genre, artist_id) VALUES ('Gold', 'Pop', 1)
+INSERT INTO albums (title, genre, artist_id) VALUES ('Gold', 'Pop', 1);
+INSERT INTO albums (title, genre, artist_id) VALUES ('Nevermind', 'Metal', 2);
+INSERT INTO albums (title, genre, artist_id) VALUES ('The White Album', 'Rock', 3);
+INSERT INTO albums (title, genre, artist_id) VALUES ('Swing when you"re winning', 'Pop', 4);
 
 
 
