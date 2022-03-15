@@ -12,3 +12,10 @@ CREATE TABLE albums (
   genre VARCHAR(255),
   artist_id INT REFERENCES artists(id)
 );
+
+INSERT INTO artists (name) VALUES ('Abba');
+
+INSERT INTO albums (title, genre, artist_id) VALUES ('Gold', 'Pop', 1)
+
+
+
